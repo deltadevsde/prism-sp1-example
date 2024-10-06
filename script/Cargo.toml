@@ -15,7 +15,7 @@ serde = { version = "1.0", default-features = false, features = ["derive"] }
 clap = { version = "4.0", features = ["derive", "env"] }
 tracing = "0.1.40"
 hex = "0.4.3"
-prism-common = { git = "https://github.com/deltadevsde/prism", package = "crates/common", features = [
+prism-common = { git = "https://github.com/deltadevsde/prism", package = "prism-common", features = [
     "test_utils",
 ] }
 jmt = { git = "https://github.com/deltadevsde/jmt", branch = "rehashing-circuit", features = [
